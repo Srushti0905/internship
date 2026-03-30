@@ -1,0 +1,91 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  width: 420px;
+  margin: 60px auto;
+  padding: 25px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  color: white;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* 🔍 Search Bar */
+.search-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+/* 📋 Suggestions */
+.suggestions {
+  list-style: none;
+  padding: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+  color: black;
+}
+
+.suggestions li {
+  padding: 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: 0.3s;
+}
+
+.suggestions li:hover {
+  background: #667eea;
+  color: white;
+  transform: scale(1.02);
+}
+
+/* ⏳ Loader */
+.loading {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* ❌ No results */
+.no-results {
+  margin-top: 10px;
+  color: #ff6b6b;
+}
+
+/* 📦 Product Details Card */
+.details {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background: white;
+  color: black;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+.details h3 {
+  margin-bottom: 8px;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+.details img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
