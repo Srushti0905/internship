@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Card */
+  .form-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  
+  /* Inputs */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 15px;
+    margin: 10px 5px 0 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:first-of-type {
+    background: #ccc;
+  }
+  
+  button:last-of-type {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  /* Progress bar */
+  .progress {
+    width: 100%;
+    background: #eee;
+    border-radius: 5px;
+    overflow: hidden; /* ✅ THIS FIXES OVERFLOW */
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: #4CAF50;
+    border-radius: 5px;
+  }
